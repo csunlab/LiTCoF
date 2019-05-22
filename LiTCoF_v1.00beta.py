@@ -1,12 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# <h1><center> Literature Topic Co-occurrence and Frequency (LiTCoF) tool </center></h1>
+# <h3><center>Fazle Rabbi Dayeen, Abhinav S. Sharma, Sybil Derrible</center></h3>
+
 # # Introduction
 
 # This is the code we have used for the paper ***Industrial Ecology for Climate Change Adaptation and Resilience
 # literature review using text mining***. And this is the tutorial. By using Jupyter notebook, you can run the code and see the results as you progress: just press `Shift+Enter` on your keyboard to run each cell. 
 
 # **Disclaimer** # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. If you use this code in your project please consider citing our paper as well (link).
+# 
+# For further information about the program and downloads, please visit the [CSUN website](https://csun.uic.edu/codes/LiTCoF.html). 
 
 # # Data Collection
 
@@ -479,6 +484,8 @@ cbar.ax.set_ylabel('Co-occurence coefficient', rotation=90,labelpad=5, y=0.45, f
 
 cbar.ax.tick_params(labelsize=40)
 
+
+    
 
 ax.set_yticks(np.arange(len(keywords)))
 ax.set_xticks(np.arange(len(keywords)))
