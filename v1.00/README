@@ -1,0 +1,10 @@
+Prerequisites:
+1) Python 3.7 or higher installed on your machine.
+2) Make sure your collection of abstracts is either in .pkl or .csv format, and the co-occurrence table is in .csv or .xls/.xlsx format. 
+
+Before running the code:
+ 1) Create three folders with names: 'src', 'data', 'plots'.
+ 2) Copy LiTCoF-v1.00.py and new_stop_words.txt to the 'src' folder. 
+ 3) Edit new_stop_words.txt to contain the list of words you do not wish to consider for the analysis.
+ 4) Copy your collection of abstracts and co-occurrence table files to 'data' folder. 
+ 5) Run.
